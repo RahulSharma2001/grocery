@@ -1,0 +1,52 @@
+body {
+    margin-top: 15vh;
+    background-color: #F8FAFC;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+}
+
+.below {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.item-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 20%;
+    background-color: white;
+    padding: 5px;
+}
+
+.delete {
+    padding: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+.add {
+    width: 100px;
+    font-size: 1.2rem;
+    background-color: aqua;
+    border: 1px solid;
+    margin: 2px;
+    border-radius: 2px;
+}
+
+input {
+    font-size: 1rem;
+}
